@@ -1,0 +1,82 @@
+/* 
+font-family: 'Dongle', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Play', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+
+
+.logo{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
+    text-decoration: none;
+  
+    text-shadow: 2px;
+    color: crimson;
+    padding-right: 20px;
+}
+
+.BreadcrumbLi{
+    color: white;
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.centerContainer{
+    margin-top: 100px;
+}
+
+
+.headings{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+
+.mainBreadcrumb{
+    background-color: crimson;
+}
+
+.writing{
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 50px;
+}
+
+.queots{
+    color: yellowgreen;
+    font-family: 'Gluten', cursive;
+    font-size: 1.7rem;
+    animation-name: colorchanger;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.animaiton{
+    animation-name: colorchanger;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchanger {
+    
+25%{
+    color: darkorange;
+
+}
+50%{
+    color: yellow;
+}
+50%{
+    color:greenyellow;
+}
+75%{
+    color: cyan;
+}
+
+}
